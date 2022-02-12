@@ -1,0 +1,347 @@
+
+
+/* Body */
+body {
+	margin: 5% 5% 5% 5% ;
+	
+	 }
+
+/* Menu_Horizontal */
+
+#menu_horizontal  ul {
+	list-style-type: none;
+	padding: 0;
+	overflow: hidden;
+	background-color: #005D8C;}
+
+#menu_horizontal  li a {
+	color: white;
+	text-align: center;
+	padding: 23px 16px;
+	text-decoration: none;
+	float: right;
+}
+#menu_horizontal li a:hover:not(.active) {
+	background-color: #6A7A97;}
+#menu_horizontal .active {
+	background-color: #FE7901;}
+
+
+
+.contenu{
+	display: flex;
+	min-height: 500px;
+	background: #E0E0E0;
+}
+
+
+.contenu>div:first-child{
+	min-height:50px;
+	width: 25%;
+	background: #F5F5F5;
+	height:fill
+}
+.contenu>div:first-child>div:first-child{
+	width: 100%;
+	height:35px;
+	background:#383B44;
+	margin-top: 15%; 
+}
+
+.contenu>div:first-child>div:first-child>p{
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	font-size: 15pt;
+	color: white;	
+	font-weight: bold;
+	padding: 8px 16px;			
+}
+
+/* menu_vertical */
+.contenu>div:first-child>div:nth-child(2)>ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #f1f1f1;
+    height: 100%;
+    overflow: auto;
+}
+
+.contenu>div:first-child>div:nth-child(2)>ul>li a {
+	
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.contenu>div:first-child>div:nth-child(2)>ul>li a.active {
+    background-color: #3399CC;
+    color: white;
+}
+
+.contenu>div:first-child>div:nth-child(2)>ul>li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}			
+.bankinfo{
+	width:2600px;
+	display: flex;
+	flex-direction: column;
+	overflow-y: auto;
+}
+
+.bankinfo>div{
+	
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+	margin: 20px auto;
+	background: white;
+	
+}
+.bankinfo>div:nth-child(1)>button{
+	background-color: #3399CC;
+	width: 13%;
+	height: 25px;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+	margin-left: 85%;
+	margin-bottom: 1%;
+    cursor: pointer;
+}
+
+.bankinfo>div:nth-child(1)>button:hover{
+	background-color: #FE7901;
+	width: 13%;
+	height: 25px;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+	margin-left: 85%;
+	margin-bottom: 1%;
+    cursor: pointer;
+}
+.bankinfo>div:nth-child(1)>button:nth-child(3){
+	background-color: #3399CC;
+	width: 8%;
+	height: 25px;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+	margin-left: 90%;
+	margin-bottom: 1%;
+    cursor: pointer;
+}
+.bankinfo>div:nth-child(1)>button:nth-child(3):hover{
+	background-color: #FE7901;
+	width: 8%;
+	height: 25px;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+	margin-left: 90%;
+	margin-bottom: 1%;
+    cursor: pointer;
+}
+
+.invisible{
+	display: none;
+}
+.invisible>h2{
+	width: 80%;
+	margin-left:5%;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	font-size: 15pt;
+	color: #1F2048;
+	font-weight: bold;
+}
+.invisible>table{
+	margin: auto;
+	width: 95%;
+	border-collapse: collapse;}
+
+
+thead th {
+	padding: 2px;
+	text-align: left;
+	font-size: 9pt;	
+    background-color: #3399CC;
+    color: white;
+}
+
+tbody  td {
+	padding: 1px;
+	text-align: left;
+	font-size: 9pt;		
+}
+
+tbody tr:nth-child(even)  {
+	background-color: #f2f2f2 
+}
+
+tbody  td .button_s {
+    background-color: #f44336; 
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+tbody  td .button_s:hover {
+    background-color: #FE7901; 
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+tbody  td .button_m {
+    background-color: #1F2048; 
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+tbody  td .button_m:hover {
+    background-color: #FE7901; 
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.ajouter input[type=text], .ajouter select, .ajouter textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 3px;
+    margin-bottom: 10px;
+	resize: vertical;
+	font-size: 10px;	
+}
+.ajouter label{
+	width: 20px;
+	font-size: 13px;		
+}
+.ajouter input[type=submit] {
+    background-color: #3399CC;
+    color: white;
+    padding: 6px 20px;
+    margin-left: 43%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.ajouter input[type=submit]:hover {
+    background-color: #FE7901;
+}
+
+.ajouter .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+.ajouter input[type=text], .ajouter select, .ajouter textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 3px;
+    margin-bottom: 10px;
+	resize: vertical;
+	font-size: 10px;	
+}
+.supprimer label{
+	width: 20px;
+	font-size: 15px;		
+}
+.supprimer input[type=submit],  {
+    background-color: #3399CC;
+    color: white;
+    padding: 6px 30px;
+    margin-left: 20%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.supprimer input[type=submit]:hover {
+    background-color: #FE7901;
+}
+
+.supprimer .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+.exit{
+    background-color: #DD4F43;
+        padding: 3px 3px;
+        margin-left: 99%;
+}
+.exit:hover{
+    background-color: #f44336;
+        padding: 3px 3px;
+        margin-left: 99%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.w3-container:after,.w3-container:before,.w3-panel:after,.w3-panel:before,.w3-row:after,.w3-row:before,.w3-row-padding:after,.w3-row-padding:before,
+.w3-cell-row:before,.w3-cell-row:after,.w3-clear:after,.w3-clear:before,.w3-bar:before,.w3-bar:after{content:"";display:table;clear:both}
+.w3-container,.w3-panel{padding:0.01em 16px}.w3-panel{margin-top:16px;margin-bottom:16px}
+.w3-modal{z-index:3;display:none;padding-top:100px;position:fixed;left:0;top:0;width:100%;height:100%;overflow:auto;background-color:rgb(0,0,0);background-color:rgba(0,0,0,0.4)}
+.w3-modal-content{margin:auto;background-color:#fff;position:relative;padding:0;outline:0;width:600px}
+@media (max-width:600px){.w3-modal-content{margin:0 10px;width:auto!important}.w3-modal{padding-top:30px}
+@media (max-width:768px){.w3-modal-content{width:500px}.w3-modal{padding-top:50px}}
+@media (min-width:993px){.w3-modal-content{width:900px}.w3-hide-large{display:none!important}.w3-sidebar.w3-collapse{display:block!important}}
+
+
+
